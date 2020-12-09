@@ -2,7 +2,7 @@
 
 ```
 module "vpc" {
-    source = "tutac/terraform-gcp-vpc"
+    source = "./module"
     vpc_name = "test"
     firewall_name = "http-allow"
     public-subnet1-name = "public-subnet1" 
